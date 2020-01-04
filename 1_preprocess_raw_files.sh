@@ -1,13 +1,14 @@
 #!/bin/bash
 
 # Do not use a trailing slash
-
 OUTPUT_DIR=$HOME/hackumenta_videos
+INPUT_DIR=.
+
 # For valid quality values, search for the "qp" parameter here:
 # https://trac.ffmpeg.org/wiki/Hardware/VAAPI
 QUALITY=19
 
-for input_video_dir in */ ;
+for input_video_dir in $INPUT_DIR/*/ ;
 do
     # For each input directory, create an output directory
     mkdir -p $OUTPUT_DIR/$input_video_dir/
@@ -30,7 +31,6 @@ do
         "$OUTPUT_DIR/$input_video_dir/cam.mp4"
 
     # The screen capture was in raw format. Reencode it to get a sane file size
-
     ffmpeg \
         -hwaccel vaapi \
         -vaapi_device /dev/dri/renderD128 \
