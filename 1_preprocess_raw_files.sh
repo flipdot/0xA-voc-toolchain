@@ -34,7 +34,7 @@ do
     ffmpeg \
         -hwaccel vaapi \
         -vaapi_device /dev/dri/renderD128 \
-        -i "./01_Opening/screen_raw.avi" \
+        -i "./$input_video_dir/screen_raw.avi" \
         -vf 'format=nv12,hwupload' \
         -c:v h264_vaapi \
         -qp:v $QUALITY \
