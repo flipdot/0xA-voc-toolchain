@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# Do not use a trailing slash
-WORKING_DIR=$HOME/private/hackumenta_videos
+. settings.env
 
 for video_dir in $WORKING_DIR/*/ ;
 do

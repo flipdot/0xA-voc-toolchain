@@ -1,11 +1,6 @@
 #!/bin/bash
 
-# Do not use a trailing slash
-WORKING_DIR=$HOME/private/hackumenta_videos
-
-# For valid quality values, search for the "qp" parameter here:
-# https://trac.ffmpeg.org/wiki/Hardware/VAAPI
-QUALITY=19
+. settings.env
 
 # for video_dir in $WORKING_DIR/*/ ;
 # do

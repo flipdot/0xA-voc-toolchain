@@ -1,12 +1,6 @@
 #!/bin/bash
 
-# Do not use a trailing slash
-OUTPUT_DIR=$HOME/hackumenta_videos
-INPUT_DIR=.
-
-# For valid quality values, search for the "qp" parameter here:
-# https://trac.ffmpeg.org/wiki/Hardware/VAAPI
-QUALITY=19
+. settings.env
 
 for input_video_dir in $INPUT_DIR/*/ ;
 do
