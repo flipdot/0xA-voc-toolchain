@@ -16,7 +16,6 @@ do
         -i $video_dir/screen_normalized.mkv \
         -ss $(cat $video_dir/screen_offset.txt) \
         -i $video_dir/cam.mp4 \
-        -i $WORKING_DIR/outro.mp4 \
         -filter_complex \
         "
         [1:v]
