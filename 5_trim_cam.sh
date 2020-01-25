@@ -8,6 +8,9 @@ do
         echo "Skipping $video_dir";
         continue
     fi
+
+    # Use the timestamps from the last step to cut the video recording, so
+    # it will start in sync with the screen recording
     ffmpeg \
         -hwaccel vaapi \
         -vaapi_device /dev/dri/renderD128 \
@@ -24,3 +27,6 @@ echo "*********************"
 echo "*********************"
 echo "Now, you have one minute startings of every cam recording. Open them, and write down the offset to directory/talk_start_offset.txt when the talk actually begins!"
 echo "Format must be compatible with ffmpeg, e.g. 00:00:03.200 for 3.2 seconds"
+echo "Example: echo \"00:00:03.200\" > talk_start_offset.txt"
+echo ''
+echo 'Hint: You can use this to very your timestamp: mpv --start=$(cat talk_start_offset.txt) cam_aligned_with_screen.mp4'

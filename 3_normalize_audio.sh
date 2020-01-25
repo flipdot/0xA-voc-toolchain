@@ -4,11 +4,10 @@
 
 for video_dir in $WORKING_DIR/*/ ;
 do
-    # Create an audio file from screen recording and cam recording.
-    # This allows using a third party program like audacity to synchronize
-    # both files
-    # Open the files and search for common waveforms, and look for the offset
-    # that is required to synchronize them
+    # Normalize the audio of every screen file, so the volume is about
+    # the same everywhere.
+    # We also normalize the cam audio, so it will be simpler to compare
+    # the audio tracks in a visual tool (e.g. audacity)
 
     # TODO: This produces quite large files, maybe fix me
     ffmpeg-normalize \

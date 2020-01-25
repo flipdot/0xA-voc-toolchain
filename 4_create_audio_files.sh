@@ -8,7 +8,9 @@ do
     # This allows using a third party program like audacity to synchronize
     # both files
     # Open the files and search for common waveforms, and look for the offset
-    # that is required to synchronize them
+    # that is required to synchronize them. Write the offset into a textfile:
+    # Example:
+    # echo "00:02:15.120" > screen_offset.txt
 
     ffmpeg \
         -y \

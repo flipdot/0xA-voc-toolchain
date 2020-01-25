@@ -4,7 +4,6 @@
 
 for video_dir in $WORKING_DIR/*/ ;
 do
-
     if [ ! -f $video_dir/screen_offset.txt ]; then
         echo "Skipping $video_dir";
         continue
@@ -15,11 +14,12 @@ do
         -i $WORKING_DIR/background.mp4 \
         -i $video_dir/screen_normalized.mkv \
         -ss $(cat $video_dir/screen_offset.txt) \
+        -to $(cat $video_dir/cam_end_offset.txt) \
         -i $video_dir/cam.mp4 \
         -filter_complex \
         "
         [1:v]
-            scale=1536:864
+            scale=1440:810
         [slides];
         [2:v]
             scale=480:270
@@ -31,7 +31,8 @@ do
                shortest=1
         [bg_with_cam];
         [bg_with_cam][slides]
-            overlay
+            overlay=
+               shortest=1
         [talk]
         " \
         -map "[talk]" \
