@@ -19,6 +19,7 @@ do
     ffmpeg \
         -hwaccel vaapi \
         -vaapi_device /dev/dri/renderD128 \
+        -r 25 \
         -i $WORKING_DIR/background.mp4 \
         -i ${video_dir}screen_normalized.mkv \
         -ss $(cat ${video_dir}screen_offset.txt) \
