@@ -50,5 +50,6 @@ do
         -qp:v $QUALITY \
         -c:a aac \
         -b:a 128k \
+        -shortest \
         ${video_dir}combined.mp4
 done
