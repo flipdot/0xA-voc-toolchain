@@ -15,15 +15,15 @@ do
         -t -17 \
         -lrt 14.0 \
         -tp -1 \
-        -f "$video_dir/screen_audio_delay_fixed.mp4" \
-        -o "$video_dir/screen_normalized.mkv"
+        -f "${video_dir}screen_audio_delay_fixed.mp4" \
+        -o "${video_dir}screen_normalized.mkv"
 
     ffmpeg-normalize \
         -pr \
         -t -17 \
         -lrt 14.0 \
         -tp -1 \
-        -f "$video_dir/cam.mp4" \
-        -o "$video_dir/cam_normalized.mkv"
+        -f "${video_dir}cam.mp4" \
+        -o "${video_dir}cam_normalized.mkv"
 
 done

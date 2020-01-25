@@ -4,7 +4,7 @@
 
 for video_dir in $WORKING_DIR/*/ ;
 do
-    if [ ! -f $video_dir/screen_offset.txt ]; then
+    if [ ! -f ${video_dir}screen_offset.txt ]; then
         echo "Skipping $video_dir";
         continue
     fi
@@ -14,13 +14,13 @@ do
     ffmpeg \
         -hwaccel vaapi \
         -vaapi_device /dev/dri/renderD128 \
-        -ss $(cat $video_dir/screen_offset.txt) \
-        -i "$video_dir/cam.mp4" \
+        -ss $(cat ${video_dir}screen_offset.txt) \
+        -i "${video_dir}cam.mp4" \
         -to 00:01:00.000 \
         -vf 'format=nv12,hwupload' \
         -c:v h264_vaapi \
         -qp:v $QUALITY \
-        "$video_dir/cam_aligned_with_screen.mp4"
+        "${video_dir}cam_aligned_with_screen.mp4"
 done
 
 echo "*********************"

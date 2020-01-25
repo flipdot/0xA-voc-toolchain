@@ -14,15 +14,15 @@ do
 
     ffmpeg \
         -y \
-        -i "$video_dir/screen_normalized.mkv" \
+        -i "${video_dir}screen_normalized.mkv" \
         -vn \
         -acodec copy \
-        "$video_dir/audio_screen.wav"
+        "${video_dir}audio_screen.wav"
 
     ffmpeg \
         -y \
-        -i "$video_dir/cam_normalized.mkv" \
+        -i "${video_dir}cam_normalized.mkv" \
         -vn \
         -acodec copy \
-        "$video_dir/audio_cam.wav"
+        "${video_dir}audio_cam.wav"
 done

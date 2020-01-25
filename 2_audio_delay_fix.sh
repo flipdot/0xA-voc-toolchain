@@ -8,11 +8,11 @@ do
     # We assume that every screen recording has about the same delay.
     # Fixme if this is not the case
     ffmpeg \
-        -i "$video_dir/screen.mp4" \
+        -i "${video_dir}screen.mp4" \
         -itsoffset 0.7 \
-        -i "$video_dir/screen.mp4" \
+        -i "${video_dir}screen.mp4" \
         -map 0:v \
         -map 1:a \
         -c copy \
-        "$video_dir/screen_audio_delay_fixed.mp4"
+        "${video_dir}screen_audio_delay_fixed.mp4"
 done
