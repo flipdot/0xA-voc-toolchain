@@ -5,7 +5,15 @@
 for video_dir in $WORKING_DIR/*/ ;
 do
     if [ ! -f $video_dir/screen_offset.txt ]; then
-        echo "Skipping $video_dir";
+        echo "Skipping $video_dir, no screen_offset.txt";
+        continue
+    fi
+    if [ ! -f $video_dir/cam_end_offset.txt ]; then
+        echo "Skipping $video_dir, no cam_end_offset.txt";
+        continue
+    fi
+    if [ ! -f $video_dir/talk_start_offset.txt ]; then
+        echo "Skipping $video_dir, no talk_start_offset.txt";
         continue
     fi
     ffmpeg \
