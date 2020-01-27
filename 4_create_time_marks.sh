@@ -20,10 +20,6 @@ regex="^[0-9]{2}:[0-9]{2}:[0-9]{2}\.?[0-9]*$"
 for video_dir in $WORKING_DIR/*/ ;
 do
 
-    if [ ! -f ${video_dir}screen_offset.txt ]; then
-        echo "Skipping $video_dir, no screen_offset.txt";
-        continue
-    fi
 
     # We need to find the start and the end of the talk. Start mpv with
     # some osd settings set, so the user will be able to search for start
@@ -31,7 +27,12 @@ do
 
     echo "\"$(basename $video_dir)\" will now start. Search for the start of the talk!"
     read -p 'Press enter '
-    mpv --osd-fractions --osd-level 2 --start=$(cat ${video_dir}screen_offset.txt) ${video_dir}cam.mp4
+
+    if [ -f ${video_dir}screen_offset.txt ]; then
+        mpv --osd-fractions --osd-level 2 --start=$(cat ${video_dir}screen_offset.txt) ${video_dir}cam.mp4
+    else
+        mpv --osd-fractions --osd-level 2 ${video_dir}cam.mp4
+    fi
 
     unset confirmation
     while [[ ! $confirmation =~ [yY] ]]; do
