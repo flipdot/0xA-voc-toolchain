@@ -1,7 +1,7 @@
 #!/bin/bash
 
 calc_timestamp() {
-    python3 -c "from datetime import timedelta;f=lambda t: timedelta(hours=int(t[:2]), minutes=int(t[3:5]), seconds=int(t[6:8]), microseconds=int(t[9:] or '0'));print(f('$1')$2f('$3'))"
+    python3 -c "from datetime import timedelta;f=lambda t: timedelta(hours=int(t[:2]), minutes=int(t[3:5]), seconds=int(t[6:8]), microseconds=int(''.join([t[9+i:10+i] or '0' for i in range(6)])));print(f('$1')$2f('$3'))"
 }
 
 
@@ -43,7 +43,7 @@ do
         -i ${video_dir}cam.mp4 \
         -ss $(calc_timestamp $talk_start - $screen_offset) \
         -to $(calc_timestamp $talk_end - $screen_offset) \
-        -i ${video_dir}screen.wav \
+        -i ${video_dir}screen_normalized.wav \
         -filter_complex \
         "
         [1:v]

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sub_seconds_from_timestamp() {
-    python3 -c "from datetime import timedelta;f=lambda t: timedelta(hours=int(t[:2]), minutes=int(t[3:5]), seconds=int(t[6:8]), microseconds=int(t[9:] or '0'));print(f('$1')-timedelta(seconds=$2))"
+    python3 -c "from datetime import timedelta;f=lambda t: timedelta(hours=int(t[:2]), minutes=int(t[3:5]), seconds=int(t[6:8]), microseconds=int(''.join([t[9+i:10+i] or '0' for i in range(6)])));print(f('$1')-timedelta(seconds=$2))"
 }
 
 # a=00:03:04.200
