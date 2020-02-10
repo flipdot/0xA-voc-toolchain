@@ -36,7 +36,13 @@ do
         -c:a aac \
         -b:a 128k \
         "$WORKING_DIR/${out_dirname}/screen.mp4"
+
+    # The intros will simply be copied
+    cp "${input_video_dir}intro.mp4" "$WORKING_DIR/${out_dirname}/intro.mp4"
 done
+
+cp $INPUT_DIR/background.mp4 $WORKING_DIR/background.mp4
+cp $INPUT_DIR/outro.mp4 $WORKING_DIR/outro.mp4
 
 # cd $WORKING_DIR/..
 # tar -cf $WORKING_DIR.tar $WORKING_DIR

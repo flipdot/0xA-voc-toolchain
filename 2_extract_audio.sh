@@ -14,12 +14,7 @@ do
         continue
     fi
 
-    # The audio of the screen is slightly delayed.
-    # Fix this delay with -itsoffset
-    # We assume that every screen recording has about the same delay (700ms).
-    # Fixme if this is not the case
     ffmpeg \
-        -itsoffset 0.7 \
         -i "${video_dir}screen.mp4" \
         -vn \
         "${video_dir}screen.wav"
@@ -29,6 +24,8 @@ do
         -vn \
         "${video_dir}cam.wav"
 
+    # Normalize the audio for better comparison in audacity, and to
+    # improve overall soundquality
     sox --norm "${video_dir}screen.wav" "${video_dir}screen_normalized.wav"
     sox --norm "${video_dir}cam.wav" "${video_dir}cam_normalized.wav"
 done
