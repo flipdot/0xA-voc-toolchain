@@ -33,14 +33,23 @@ do
         -of default=noprint_wrappers=1:nokey=1 \
         ${video_dir}intro.mp4)
 
-    offset=$(echo "$intro_length - ($transition_duration / 1000)" | bc -l)
+    offset=$(echo "$intro_length * 1000 - $transition_duration" | bc)
 
     # ffmpeg-concat removes the audio, so copy it back:
     ffmpeg \
         -y \
         -i ${video_dir}transitioned.mp4 \
-        -vn -itsoffset $offset -i ${video_dir}combined.mp4 \
+        -vn -i ${video_dir}combined.mp4 \
+        -i ${WORKING_DIR}/intro.wav \
+        -filter_complex \
+        "
+        [1:a]
+            adelay=$offset|$offset
+        [delayed];
+        [2:a] [delayed] amix [mixed_audio]
+        "\
         -c:v copy \
-        -c:a copy \
+        -map 0:v \
+        -map '[mixed_audio]' \
         ${video_dir}output.mp4
 done

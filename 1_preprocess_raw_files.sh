@@ -43,6 +43,7 @@ done
 
 cp $INPUT_DIR/background.mp4 $WORKING_DIR/background.mp4
 cp $INPUT_DIR/outro.mp4 $WORKING_DIR/outro.mp4
+cp $INPUT_DIR/intro.wav $WORKING_DIR/intro.wav
 
 # cd $WORKING_DIR/..
 # tar -cf $WORKING_DIR.tar $WORKING_DIR
