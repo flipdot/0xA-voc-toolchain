@@ -20,7 +20,7 @@ do
 
     if [ ! -f ${video_dir}transitioned.mp4 ] || [[ $overwrite =~ [yY] ]]; then
         ffmpeg-concat \
-            -d ${transition_duration}
+            -d ${transition_duration} \
             -o ${video_dir}transitioned.mp4 \
             ${video_dir}intro.mp4 \
             ${video_dir}combined.mp4 \
