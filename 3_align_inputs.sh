@@ -23,11 +23,11 @@ do
     echo 'file "cam_normalized.wav"' > ${video_dir}audacity.lof
     echo 'file "screen_normalized.wav"' >> ${video_dir}audacity.lof
     audacity ${video_dir}audacity.lof
-    rm ${video_dir}audacity.lof
     unset screen_offset
     regex="^[0-9]{2}:[0-9]{2}:[0-9]{2}\.?[0-9]*$"
     while [[ ! $screen_offset =~ $regex ]]; do
         read -p 'Enter timestamp to sync both files (hh:mm:ss.s): ' screen_offset
     done
+    rm ${video_dir}audacity.lof
     echo $screen_offset > ${video_dir}screen_offset.txt
 done
