@@ -1,0 +1,978 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- Made with love by pretalx v1.0.3. -->
+<schedule>
+    <version>1.13</version>
+    <conference>
+        <acronym>hackumenta</acronym>
+        <title>Hackumenta</title>
+        <start>2019-10-03</start>
+        <end>2019-10-06</end>
+        <days>4</days>
+        <timeslot_duration>00:05</timeslot_duration>
+        <base_url>http://fahrplan.2019.hackumenta.de/hackumenta/schedule/</base_url>
+    </conference>
+    <day index='1' date='2019-10-03' start='2019-10-03T04:00:00+02:00' end='2019-10-04T03:59:00+02:00'>
+        <room name='Proxima b'>
+            <event guid='ac2c0286-0437-5541-9808-035730daf9b1' id='23'>
+                <date>2019-10-03T16:00:00+02:00</date>
+                <start>16:00</start>
+                <duration>00:15</duration>
+                <room>Proxima b</room>
+                <slug>hackumenta-23-opening</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/HNFPVC/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Opening</title>
+                <subtitle></subtitle>
+                <track>Talks</track>
+                <type>Talk</type>
+                <language>de</language>
+                <abstract></abstract>
+                <description>The opening of the hackumenta in Kassel, Germany will involve two different phases. First, the &quot;hack-lab&quot;, for which the hack will be conducted, will be located at the Kassel University of Applied Sciences. Here hackers will get their first stab at developing their software and testing it with a real life example. Secondly, they will be able to conduct &quot;open&quot; experiments using the platform. This will allow the hackers to connect to the public to make their software even more open and free.
+
+Hackumenta will have up to 50,000 users
+
+The project is the brainchild of Andreas Krawitz and his team from the &quot;Hackumenta&quot; company. The company is a subsidiary of the German Software House of Technology, whose board members include Jurgen Neugebauer, chief executive of Google, Michael Schroeter, head of IBM Research Germany, Dr Ulrich Sch&#228;uble, chairman of the German Bundesministerium for Economic Affairs, Erich Honecker and the Chancellor of Bavaria, Horst Seehofer.</description>
+                <logo></logo>
+                <persons>
+                    <person id='28'>AI</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='b006d1fb-0e63-5841-ba5c-462fee19f1c9' id='8'>
+                <date>2019-10-03T19:00:00+02:00</date>
+                <start>19:00</start>
+                <duration>00:45</duration>
+                <room>Proxima b</room>
+                <slug>hackumenta-8-cuda-basics</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/FK73M3/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>CUDA Basics</title>
+                <subtitle></subtitle>
+                <track>Talks</track>
+                <type>Talk</type>
+                <language>de</language>
+                <abstract>Eine grundlegende Einf&#252;hrung in die Programmierung paralleler Tasks auf Grafikkarten von NVIDIA.</abstract>
+                <description>Was an Grafikkarten cool ist? Wer &#252;ber das Alter hinaus ist, in dem man beim Gedanken an Grafikkarten einzig an Spiele und m&#246;glichst hohe FPS denkt, wei&#223; sicherlich, dass Grafikkarten f&#252;r etliche weitere Zwecke zum Einsatz kommen. Hier produzieren sie Cryptow&#228;hrungen in Mining-Farmen, dort errechnen sie Hashes f&#252;r alle m&#246;glichen Zeichenkombinationen, um auf Passw&#246;rter r&#252;ckschlie&#223;en zu k&#246;nnen.
+Doch wie funktioniert das eigentlich? Wie kann ich meine Grafikkarte programmieren? Wieso nutzen die Programme auf meinem Rechner nicht alle die Grafikkarte, wenn sie doch von einem so beeindruckenden Leistungsplus profitieren k&#246;nnten? Und wieso m&#246;chte ich bei NVIDIA-Grafikkarten eigentlich immer die mit m&#246;glichst vielen CUDA-Cores kaufen, obwohl ich keine Ahnung habe, was die tun.
+
+Dieser Talk beleuchtet anhand von NVIDIAs CUDA die genannten Fragestellungen, weist auf architekturbedingt Beachtenswertes hin und vermittelt, dass man seine CPU nicht wegwerfen sollte. Gekr&#246;nt wird der Vortrag von einem Blick auf Optimierungsstrategien, die in einem echten Codebeispiel Anwendung finden.</description>
+                <logo></logo>
+                <persons>
+                    <person id='8'>dargmuesli</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='008f924e-42ea-5079-ac92-c4804d81c70d' id='2'>
+                <date>2019-10-03T20:00:00+02:00</date>
+                <start>20:00</start>
+                <duration>01:30</duration>
+                <room>Proxima b</room>
+                <slug>hackumenta-2-die-dreckige-empirie</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/M8X9PD/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Die dreckige Empirie</title>
+                <subtitle></subtitle>
+                <track>Talks</track>
+                <type>Talk</type>
+                <language>de</language>
+                <abstract></abstract>
+                <description>Kann man empirischen Studien trauen oder nicht? Wie kann ich gute Studien von schlechten unterscheiden? Und was mache ich, wenn es zu einem Thema Studien mit gegens&#228;tzlichen Befunden gibt? Der Vortrag soll helfen, Antworten auf diese Fragen zu finden und empirische Studien besser zu verstehen. Empirischen Studien begegnet man nicht nur in Vorlesungen und Laboren, auch in den Nachrichten und in Diskussionen werden sie zitiert und oft als unumst&#246;&#223;liche Wahrheit dargestellt. Andererseits gibt es ein gro&#223;es Misstrauen gegen&#252;ber diesen Studien. Den Satz &#8222;Traue keiner Statistik die du nicht selbst gef&#228;lscht hast&#8220; hat wohl jeder schon geh&#246;rt und beim Congress im letzten Jahr hie&#223; es mit Verweis auf psychologische und sozialwissenschaftliche Methoden &#8222;Science is broken&#8220;. Aber entspricht das wirklich der Wahrheit? Der Vortrag besch&#228;ftigt sich mit der Frage, was die Denkweise hinter empirischen Studien ist und wie man sie besser verstehen kann. Dabei sollen sowohl Grundlagen wie Wahrscheinlichkeiten, verschiedene statistische Testverfahren und Metaanlysen als auch Probleme wie p-Hacking und die Replikationskrise angesprochen werden. Ziel des Vortrags ist es, den Zuh&#246;rer*innen einen Eindruck davon zu vermitteln, was empirische Studien aussagen k&#246;nnen und was nicht. Dabei liegt besonderes Augenmerk auf der Frage, ob und welchen empirischen Studien man trauen kann. Man ben&#246;tigt keine Vorkenntnisse zum verfolgen des Vortrages. Als Beispiele werden aktuelle und klassische Studien aus der Psychologie benutzt.</description>
+                <logo></logo>
+                <persons>
+                    <person id='3'>aiko</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='5e715f1c-1e4a-574b-ab52-6c01e02f4e21' id='11'>
+                <date>2019-10-03T22:00:00+02:00</date>
+                <start>22:00</start>
+                <duration>00:45</duration>
+                <room>Proxima b</room>
+                <slug>hackumenta-11-flipdot-was-bisher-geschah</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/CXHHNV/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>flipdot - was bisher geschah</title>
+                <subtitle></subtitle>
+                <track>Talks</track>
+                <type>Talk</type>
+                <language>de</language>
+                <abstract></abstract>
+                <description>In unserer zehnj&#228;hrigen Geschichte haben wir einige Orte bespielt, viel Soft- und Hardware erzeugt und Partys und Aktionen gemacht.
+In diesem Talk gibt ein bisschen Erfahrungen aus &#8220;How to set up a hackerspace&#8221;, Bilder und einige kurze Filme &#252;ber die letzten zehn Jahre, und ein paar Lessons Learned.</description>
+                <logo></logo>
+                <persons>
+                    <person id='9'>typ_o</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='2adc6886-8afe-5733-92c7-8c55cd5078ce' id='40'>
+                <date>2019-10-03T23:00:00+02:00</date>
+                <start>23:00</start>
+                <duration>02:00</duration>
+                <room>Proxima b</room>
+                <slug>hackumenta-40-videospiele</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/LSVEFQ/</url>
+                <recording>
+                    <license></license>
+                    <optout>true</optout>
+                </recording>
+                <title>Videospiele</title>
+                <subtitle></subtitle>
+                <track>Talks</track>
+                <type>Diskussion</type>
+                <language>de</language>
+                <abstract></abstract>
+                <description>Wir zocken Mario Kart 8 DLX, Super Smash Bros. Ultimate und Super Mario Party auf der Switch.</description>
+                <logo></logo>
+                <persons>
+                    <person id='20'>BinaerBube</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+
+        </room>
+        <room name='Barnard'>
+            <event guid='5b6ade9f-81b3-5c03-abff-ef96f970875c' id='15'>
+                <date>2019-10-03T16:30:00+02:00</date>
+                <start>16:30</start>
+                <duration>02:30</duration>
+                <room>Barnard</room>
+                <slug>hackumenta-15-das-hackumenta-badge-lten</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/KY3M7X/</url>
+                <recording>
+                    <license></license>
+                    <optout>true</optout>
+                </recording>
+                <title>Das Hackumenta Badge L&#246;ten</title>
+                <subtitle></subtitle>
+                <track>Workshops</track>
+                <type>Workshop</type>
+                <language>de</language>
+                <abstract></abstract>
+                <description></description>
+                <logo></logo>
+                <persons>
+                    <person id='13'>analogmultiplizierer</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='3f561604-9799-5226-a3a6-4defad94d821' id='17'>
+                <date>2019-10-03T20:00:00+02:00</date>
+                <start>20:00</start>
+                <duration>01:30</duration>
+                <room>Barnard</room>
+                <slug>hackumenta-17-flipdot-badge-programmierung-in-rust</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/HBKFP3/</url>
+                <recording>
+                    <license></license>
+                    <optout>true</optout>
+                </recording>
+                <title>flipdot Badge Programmierung in Rust</title>
+                <subtitle></subtitle>
+                <track>Workshops</track>
+                <type>Workshop</type>
+                <language>de</language>
+                <abstract></abstract>
+                <description></description>
+                <logo></logo>
+                <persons>
+                    <person id='4'>Jaro</person><person id='19'>jplatte</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+
+        </room>
+        <room name='Calvera'>
+            <event guid='7bc92025-d1e4-582b-ba7f-6896f093f2d7' id='22'>
+                <date>2019-10-03T23:00:00+02:00</date>
+                <start>23:00</start>
+                <duration>04:00</duration>
+                <room>Calvera</room>
+                <slug>hackumenta-22-dj-set-10-03-</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/MLPE9J/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>DJ-Set (10-03)</title>
+                <subtitle></subtitle>
+                <track>Party</track>
+                <type>Musik</type>
+                <language>de</language>
+                <abstract></abstract>
+                <description>Warm werden mit DROELOE, &#252;ber Deep House zu Techno und vielleicht ein bisschen Drum&apos;n&apos;Bass.</description>
+                <logo></logo>
+                <persons>
+                    <person id='31'>cReal</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+
+        </room>
+        <room name='Pluto'>
+            <event guid='ff3df2fe-2e0e-5f29-a429-ec0cfd953590' id='37'>
+                <date>2019-10-03T16:00:00+02:00</date>
+                <start>16:00</start>
+                <duration>08:00</duration>
+                <room>Pluto</room>
+                <slug>hackumenta-37-self-organized-sessions</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/TV9PPK/</url>
+                <recording>
+                    <license></license>
+                    <optout>true</optout>
+                </recording>
+                <title>Self-organized Sessions</title>
+                <subtitle></subtitle>
+                <track>Workshops</track>
+                <type>Workshop</type>
+                <language>de</language>
+                <abstract></abstract>
+                <description></description>
+                <logo></logo>
+                <persons>
+                    <person id='30'>Du</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+
+        </room>
+
+    </day>
+    <day index='2' date='2019-10-04' start='2019-10-04T04:00:00+02:00' end='2019-10-05T03:59:00+02:00'>
+        <room name='Proxima b'>
+            <event guid='eb541ecf-b315-542a-93eb-bedf2d931ab2' id='29'>
+                <date>2019-10-04T16:00:00+02:00</date>
+                <start>16:00</start>
+                <duration>01:00</duration>
+                <room>Proxima b</room>
+                <slug>hackumenta-29-mechanische-zeichenmaschine-generative-kunst-mit-arduino-und-stepper</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/UNFRCN/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Mechanische Zeichenmaschine - Generative Kunst mit Arduino und Stepper</title>
+                <subtitle></subtitle>
+                <track>Talks</track>
+                <type>Talk</type>
+                <language>de</language>
+                <abstract></abstract>
+                <description>In diesem Talk stelle ich euch meine Zeichenmaschine vor, die mit ein paar Zeilen Code auf einem Arduino, Steppermotoren und ein bisschen Mechanik generative Muster malt.
+Nach einer Vorstellung der Maschine werden wir die nat&#252;rlich auch direkt anschlie&#223;en!
+Wer nicht zum Talk nicht kommen kann, findet die Maschine (und mich) in Barnard, wo sich jeder ein eigenes Bild zeichnen lassen kann.</description>
+                <logo>/media/hackumenta/images/UNFRCN/Spirograph_1.png</logo>
+                <persons>
+                    <person id='20'>BinaerBube</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='345ebcef-2830-5bc3-a8ee-1d222ccf1f27' id='13'>
+                <date>2019-10-04T17:15:00+02:00</date>
+                <start>17:15</start>
+                <duration>00:30</duration>
+                <room>Proxima b</room>
+                <slug>hackumenta-13-terminal-shell-trivia</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/P7MWRZ/</url>
+                <recording>
+                    <license></license>
+                    <optout>true</optout>
+                </recording>
+                <title>Terminal &amp; Shell Trivia</title>
+                <subtitle></subtitle>
+                <track>Talks</track>
+                <type>Talk</type>
+                <language>de</language>
+                <abstract></abstract>
+                <description></description>
+                <logo></logo>
+                <persons>
+                    <person id='11'>feliks</person><person id='19'>jplatte</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='ffc62a09-86f5-5ef8-851b-4bb8fa2f8bdf' id='18'>
+                <date>2019-10-04T17:50:00+02:00</date>
+                <start>17:50</start>
+                <duration>00:45</duration>
+                <room>Proxima b</room>
+                <slug>hackumenta-18-lightning-talks</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/EA7NYT/</url>
+                <recording>
+                    <license></license>
+                    <optout>true</optout>
+                </recording>
+                <title>Lightning-Talks</title>
+                <subtitle></subtitle>
+                <track>Talks</track>
+                <type>Talk</type>
+                <language>de</language>
+                <abstract></abstract>
+                <description>Bei unseren Lightning-Talks hast du 5 Minuten Zeit, ein Thema vorzustellen. Es kann dabei alles m&#246;gliche sein! Ob ein eigenes Projekt, ein interessanter Fund oder ein Mini-Talk - alles ist gerne gesehen!</description>
+                <logo></logo>
+                <persons>
+                    <person id='15'>alle</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='7c718497-143b-551e-9648-cb31fd6ecf70' id='1'>
+                <date>2019-10-04T18:45:00+02:00</date>
+                <start>18:45</start>
+                <duration>00:45</duration>
+                <room>Proxima b</room>
+                <slug>hackumenta-1-was-andere-sprachen-von-typescript-lernen-knnen</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/SB9DFD/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Was andere Sprachen von TypeScript lernen k&#246;nnen</title>
+                <subtitle></subtitle>
+                <track>Talks</track>
+                <type>Talk</type>
+                <language>de</language>
+                <abstract>Advanced Types in TypeScript und was andere Sprachen davon gebrauchen k&#246;nnten.</abstract>
+                <description>TypeScript erfreut sich in der Webentwicklung immer gr&#246;&#223;erer Beliebtheit &#8211; aber warum eigentlich? Welche Konzepte w&#252;rden auch in andere Sprachen ganz gut passen und wie kann man anders &#252;ber Typen denken?
+In diesem Talk geht es um fortgeschrittene Typisierung in TypeScript anhand von Live-Demos. Wir schauen uns an, wie Fehlerklassen schon vor dem Ausf&#252;hren des Codes ausgeschlossen werden k&#246;nnen. Verwenden werden wir dabei u. A. Union Types, Literal Types, Mapped Types und kontrollflussbasierte Typen.
+
+Dir sagt das nicht viel? Dieser Talk ist dazu da, dich mit diesen Konzepten vertraut zu machen.
+
+**Voraussetzungen**: Ein grundlegendes Verst&#228;ndnis von Programmierung, &#8222;Was macht ein Compiler?&#8220; und statischer Typisierung. Von Vorteil w&#228;ren JavaScript-Kenntnisse.</description>
+                <logo></logo>
+                <persons>
+                    <person id='2'>nikeee</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='b750a551-5c2e-59a8-b538-cce6eca1c18e' id='10'>
+                <date>2019-10-04T20:00:00+02:00</date>
+                <start>20:00</start>
+                <duration>01:00</duration>
+                <room>Proxima b</room>
+                <slug>hackumenta-10-chemie-und-physik-beim-kochen-und-brot-backen</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/TNJRA8/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Chemie und Physik beim Kochen und Brot backen</title>
+                <subtitle></subtitle>
+                <track>Talks</track>
+                <type>Talk</type>
+                <language>de</language>
+                <abstract>Mehr Geschmack durch die Maillard-Reaktion, der Stoffwechselzyklus der Hefe, Hege und Pflege von G&#228;rgasen - alles nur f&#252;r den guten Geschmack, die optimali Crispizit&#228;t und olfaktorische Freuden. Es wird eine Geschmacksprobe geben.</abstract>
+                <description></description>
+                <logo></logo>
+                <persons>
+                    <person id='9'>typ_o</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='19078c75-46cf-59e5-ab40-07d44cdceccc' id='30'>
+                <date>2019-10-04T21:45:00+02:00</date>
+                <start>21:45</start>
+                <duration>00:30</duration>
+                <room>Proxima b</room>
+                <slug>hackumenta-30-biometrische-berwachung-in-deutschland</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/3DK3B3/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Biometrische &#220;berwachung in Deutschland</title>
+                <subtitle></subtitle>
+                <track>Talks</track>
+                <type>Talk</type>
+                <language>de</language>
+                <abstract>Kurzer &#220;berblick &#252;ber neue Entwicklungen, &quot;erfolgreiche&quot; Testprojekte und was wir dagegen tun k&#246;nnen</abstract>
+                <description></description>
+                <logo>/media/hackumenta/images/3DK3B3/unsurv_100dpi.png</logo>
+                <persons>
+                    <person id='22'>unsurv</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='73ef7646-138c-5f12-b489-eac7b6d5f388' id='41'>
+                <date>2019-10-04T23:00:00+02:00</date>
+                <start>23:00</start>
+                <duration>02:00</duration>
+                <room>Proxima b</room>
+                <slug>hackumenta-41-videospiele-retro-</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/CSNJQY/</url>
+                <recording>
+                    <license></license>
+                    <optout>true</optout>
+                </recording>
+                <title>Videospiele (Retro)</title>
+                <subtitle></subtitle>
+                <track>Talks</track>
+                <type>Workshop</type>
+                <language>de</language>
+                <abstract></abstract>
+                <description>Wir zocken Mario All Stars auf der SNES (1992). Wenn sich genug Leute finden, spielen wir das erste Super Mario Bros. gegeneinander: Wer kommt im x Minuten am weitesten?
+Dazu h&#228;ngt eine Liste in der Gaming Ecke im Proxima B, wo ihr euch eintragen k&#246;nnt :-)</description>
+                <logo></logo>
+                <persons>
+                    <person id='20'>BinaerBube</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+
+        </room>
+        <room name='Barnard'>
+            <event guid='6da3bbf2-bdbe-58e7-a2cc-5f72ced71574' id='32'>
+                <date>2019-10-04T18:30:00+02:00</date>
+                <start>18:30</start>
+                <duration>01:00</duration>
+                <room>Barnard</room>
+                <slug>hackumenta-32-tiere-aus-luft</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/PBT9NG/</url>
+                <recording>
+                    <license></license>
+                    <optout>true</optout>
+                </recording>
+                <title>Tiere aus Luft</title>
+                <subtitle></subtitle>
+                <track>Workshops</track>
+                <type>Workshop</type>
+                <language>de</language>
+                <abstract>Lernt einfache (und auch schwierigere) Luftballonfiguren und nehmt euch euer buntes Andenken mit nach Hause!</abstract>
+                <description>## Luftballonfiguren
+
+F&#252;r den bunten Spa&#223; zwischendurch! Sobald ein Luftballon aufgepustet ist, f&#228;ngt der eigentliche Spa&#223; erst an. Hier k&#246;nnt ihr lernen, wie man aus einzelnen oder mehreren Luftballons Figuren herstellen kann. Dabei fangen wir mit einfachen Figuren aus einem Luftballon an, werden im Verlauf aber auch schwierigere Figuren lernen.
+
+Jeder der Lust hat mitzumachen ist herzlich zur Teilname eingeladen.
+Die Teilnehmerzahl sollte ungef&#228;hr 20 nicht &#252;bersteigen.
+
+
+Um das Interesse absch&#228;tzen zu k&#246;nnen, w&#228;re eine kurze Zusage nett: info@tiereausluft.de
+
+
+
+#### Unter anderem k&#246;nnt ihr lernen:
+- Die Enterprise (NCC-1701)
+- S&#228;bel
+- Herz
+- U-Boot
+- Katze
+- Teddyb&#228;r
+- Schwein
+- Blumenhut
+- Insektenhut
+- Hund
+- Laserkanone
+- Axt
+- ...</description>
+                <logo>/media/hackumenta/images/PBT9NG/Ballon-Workshop_C34aCti.jpg</logo>
+                <persons>
+                    <person id='24'>Sebastian</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='afe32bca-5b21-5ce8-9fd3-586297ac03dc' id='27'>
+                <date>2019-10-04T20:00:00+02:00</date>
+                <start>20:00</start>
+                <duration>01:30</duration>
+                <room>Barnard</room>
+                <slug>hackumenta-27-flipdot-badge-programmierung-in-rust</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/FQFNDA/</url>
+                <recording>
+                    <license></license>
+                    <optout>true</optout>
+                </recording>
+                <title>flipdot Badge Programmierung in Rust</title>
+                <subtitle></subtitle>
+                <track>Workshops</track>
+                <type>Workshop</type>
+                <language>de</language>
+                <abstract></abstract>
+                <description></description>
+                <logo></logo>
+                <persons>
+                    <person id='4'>Jaro</person><person id='19'>jplatte</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+
+        </room>
+        <room name='Calvera'>
+            <event guid='00395dcd-711a-59fa-abe5-5941ca0d58ee' id='35'>
+                <date>2019-10-04T22:30:00+02:00</date>
+                <start>22:30</start>
+                <duration>00:45</duration>
+                <room>Calvera</room>
+                <slug>hackumenta-35-waldemar-der-brombeerbluser</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/FLUGZQ/</url>
+                <recording>
+                    <license></license>
+                    <optout>true</optout>
+                </recording>
+                <title>Waldemar, der Brombeerbluser</title>
+                <subtitle></subtitle>
+                <track>Party</track>
+                <type>Musik</type>
+                <language>de</language>
+                <abstract></abstract>
+                <description></description>
+                <logo></logo>
+                <persons>
+                    <person id='27'>Waldemar, der Brombeerbluser</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='26a3043d-755b-535d-815b-2fb253638014' id='19'>
+                <date>2019-10-04T23:30:00+02:00</date>
+                <start>23:30</start>
+                <duration>01:00</duration>
+                <room>Calvera</room>
+                <slug>hackumenta-19-lost-jokers</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/7STDQX/</url>
+                <recording>
+                    <license></license>
+                    <optout>true</optout>
+                </recording>
+                <title>Lost Jokers</title>
+                <subtitle></subtitle>
+                <track>Party</track>
+                <type>Musik</type>
+                <language>de</language>
+                <abstract></abstract>
+                <description></description>
+                <logo></logo>
+                <persons>
+
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='00d2bf48-1b3e-5c0a-a0c6-52658ff64199' id='28'>
+                <date>2019-10-05T00:30:00+02:00</date>
+                <start>00:30</start>
+                <duration>04:00</duration>
+                <room>Calvera</room>
+                <slug>hackumenta-28-dj-set-10-04-</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/RDUPUD/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>DJ Set (10-04)</title>
+                <subtitle></subtitle>
+                <track>Party</track>
+                <type>Musik</type>
+                <language>en</language>
+                <abstract></abstract>
+                <description>Warm werden mit DROELOE, &#252;ber Deep House zu Techno und vielleicht ein bisschen Drum&apos;n&apos;Bass.</description>
+                <logo></logo>
+                <persons>
+                    <person id='31'>cReal</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+
+        </room>
+        <room name='Pluto'>
+            <event guid='0b5fb8cd-3176-506a-975a-e4e459ff7ab9' id='26'>
+                <date>2019-10-04T16:00:00+02:00</date>
+                <start>16:00</start>
+                <duration>05:00</duration>
+                <room>Pluto</room>
+                <slug>hackumenta-26-das-hackumenta-badge-lten</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/WFNEZG/</url>
+                <recording>
+                    <license></license>
+                    <optout>true</optout>
+                </recording>
+                <title>Das Hackumenta Badge L&#246;ten</title>
+                <subtitle></subtitle>
+                <track>Workshops</track>
+                <type>Workshop</type>
+                <language>de</language>
+                <abstract></abstract>
+                <description></description>
+                <logo></logo>
+                <persons>
+                    <person id='13'>analogmultiplizierer</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+
+        </room>
+
+    </day>
+    <day index='3' date='2019-10-05' start='2019-10-05T04:00:00+02:00' end='2019-10-06T03:59:00+02:00'>
+        <room name='Proxima b'>
+            <event guid='e9e9faf0-e4d6-557e-a4ba-a11d8a197ac7' id='7'>
+                <date>2019-10-05T15:00:00+02:00</date>
+                <start>15:00</start>
+                <duration>00:45</duration>
+                <room>Proxima b</room>
+                <slug>hackumenta-7-dargstack-ein-strau-microservices</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/WFFVUU/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>DargStack: Ein Strau&#223; Microservices</title>
+                <subtitle></subtitle>
+                <track>Talks</track>
+                <type>Talk</type>
+                <language>de</language>
+                <abstract>Wie ein Template und sein Skript den Aufwand eines Wechsels von Entwicklung zu Produktion f&#252;r Dockerprojekte minimiert.</abstract>
+                <description>Wer seine Website und einen Stapel Tools, wie z. B. CodiMD, Nextcloud und Traefik, immer schon mal als einfache zu verwaltende und dynamische Containerstapel auf seinem Server laufen lassen wollte, ist bei diesem Talk genau richtig.
+
+Nachdem kurz die grundlegende Idee hinter Microservices wiederholt und damit das Publikum auf denselben Stand gebracht wurde, zeigt dieser Talk das Problem der Separierung von Entwicklung und Produktion im sonst doch klar definierten, containerisierten Umfeld auf. Nach Erkennen und Analyse des Problems wird eine m&#246;gliche L&#246;sung vorgestellt: DargStack. Ein Template f&#252;r Projekte, das die Entwicklungskonfiguration voranstellt und die Produktionskonfiguration davon ableitet. Und weil Docker stacks so einfach sind, wird auch der n&#228;chste Schritt - das Deployment - mit DargStack anhand der pers&#246;nlichen Zusammenstellung von Webservices des Vortragenden gezeigt.</description>
+                <logo></logo>
+                <persons>
+                    <person id='8'>dargmuesli</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='372d7e19-0f8f-56a9-92b7-27a5efb97f74' id='34'>
+                <date>2019-10-05T16:00:00+02:00</date>
+                <start>16:00</start>
+                <duration>00:45</duration>
+                <room>Proxima b</room>
+                <slug>hackumenta-34-blast-procedure-wie-man-party-und-videogames-vereinen-kann</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/GYHTU8/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Blast Procedure &#8211; Wie man Party und Videogames vereinen kann</title>
+                <subtitle></subtitle>
+                <track>Talks</track>
+                <type>Talk</type>
+                <language>de</language>
+                <abstract></abstract>
+                <description></description>
+                <logo></logo>
+                <persons>
+                    <person id='26'>Antares</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='e2daa1e6-0cca-58dc-a177-7988d4cf25ec' id='12'>
+                <date>2019-10-05T17:30:00+02:00</date>
+                <start>17:30</start>
+                <duration>01:00</duration>
+                <room>Proxima b</room>
+                <slug>hackumenta-12-esperanto-wie-funktioniert-eine-plansprache-</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/YTTKPG/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Esperanto: Wie funktioniert eine Plansprache?</title>
+                <subtitle></subtitle>
+                <track>Talks</track>
+                <type>Talk</type>
+                <language>de</language>
+                <abstract></abstract>
+                <description>Eine oder mehrere Fremdsprachen zu beherrschen ist chic, aber der Weg dahin in der Regel steinig: komplizierte Grammatikregeln, unregelm&#228;&#223;ige Verben und zahlreiche Ausnahmen machen das Leben schwer. Und dann ger&#228;t man nach Jahren des Lernens an einen &quot;Native Speaker&quot;, der so schnell oder in einem Dialekt spricht, dass man kaum ein Wort versteht.
+
+Es ginge aber auch anders. Vor gut 130 Jahren hat sich ein polnischer Augenarzt mit Esperanto eine neue Sprache ausgedacht, die f&#252;r alle Menschen leicht zu erlernen ist, keine Ausnahmen kennt,  und - weil jeder sie neu lernen muss - m&#246;glich macht, dass alle Gespr&#228;chspartner auf gleicher Augenh&#246;he miteinander kommunizieren. Diese eigentlich geniale und gleichzeitig utopische Idee hat sich offensichtlich bis heute nicht durchgesetzt, aber Esperanto ist unter den sog. Plansprachen diejenige, welche die gr&#246;&#223;te Verbreitung und Aufmerksamkeit gefunden hat. Schon deshalb lohnt ein Blick auf die Entstehung, Geschichte und den aktuellen Status der Sprache. Es werden auch wichtige Ressourcen zu Esperanto im Internet gezeigt.
+
+Und weil die Sprache so einfach ist, wird in diesem Talk gleich ein Mini-Sprachkurs mitgeliefert.</description>
+                <logo></logo>
+                <persons>
+                    <person id='10'>sven</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='868c7531-5505-50da-8841-939fe639873d' id='20'>
+                <date>2019-10-05T20:30:00+02:00</date>
+                <start>20:30</start>
+                <duration>00:30</duration>
+                <room>Proxima b</room>
+                <slug>hackumenta-20-wie-zhlt-bigsite-eigentlich-seitenaufrufe-</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/FHX9QA/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Wie z&#228;hlt $BIG_SITE eigentlich Seitenaufrufe?</title>
+                <subtitle></subtitle>
+                <track>Talks</track>
+                <type>Talk</type>
+                <language>de</language>
+                <abstract>Eine Einf&#252;hrung in Probabilistische Datenstrukturen, was f&#252;r Probleme sie l&#246;sen und welche Trade-Offs dabei eine Rolle spielen.</abstract>
+                <description>Reddit, Facebook, Twitter und co. haben unheimlich gro&#223;e Nutzer- und Zugriffszahlen. Diese zu z&#228;hlen stellt selbst diese gro&#223;en Konzerne vor ein Problem, denn einfache Zugriffstabellen k&#246;nnen dabei an ihr Limit kommen.
+Gl&#252;cklicherweise brauchen wir nicht &#252;berall genauen Zahlen &#8211; meist reicht eine Sch&#228;tzung, die &#8222;gut genug&#8220; ist.
+F&#252;r diese Art von Problemen wurden probabilistische Datenstrukturen erfunden.
+
+Auf dem Weg zu einem probabilistischen Z&#228;hler schauen wir uns ein &#228;hnliches Problem an:
+Wie &#252;berpr&#252;ft Chrome eigentlich, ob eine Webseite in einer Blockiste ist?
+
+Am Ende dieses Talks haben wir zwei L&#246;sungen kennengelernt, die uns absch&#228;tzende Antworten auf die Fragen &#8222;Wie viele Elemente sind in unserer Menge?&#8220; (HyperLogLog) und &#8222;Ist dieses Element enthalten?&#8220; (Bloom-Filter) geben k&#246;nnen.</description>
+                <logo></logo>
+                <persons>
+                    <person id='2'>nikeee</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='a10e2317-83f8-5f49-a153-c73cddcb6708' id='16'>
+                <date>2019-10-05T21:15:00+02:00</date>
+                <start>21:15</start>
+                <duration>00:30</duration>
+                <room>Proxima b</room>
+                <slug>hackumenta-16-flipdot-badge-pcb-design</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/SGTP8Y/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>flipdot Badge PCB Design</title>
+                <subtitle></subtitle>
+                <track>Talks</track>
+                <type>Talk</type>
+                <language>de</language>
+                <abstract></abstract>
+                <description></description>
+                <logo></logo>
+                <persons>
+                    <person id='13'>analogmultiplizierer</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='590f8e46-4159-5817-8a0c-c5d7fe974a3c' id='14'>
+                <date>2019-10-05T22:30:00+02:00</date>
+                <start>22:30</start>
+                <duration>01:00</duration>
+                <room>Proxima b</room>
+                <slug>hackumenta-14-diskordischer-gttinendienst</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/RWFBQL/</url>
+                <recording>
+                    <license></license>
+                    <optout>true</optout>
+                </recording>
+                <title>Diskordischer G&#246;ttinendienst</title>
+                <subtitle></subtitle>
+                <track>Ritus</track>
+                <type>Talk</type>
+                <language>de</language>
+                <abstract></abstract>
+                <description></description>
+                <logo></logo>
+                <persons>
+                    <person id='12'>dmb</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='65fe66a3-e414-5273-9ac7-f2230084758b' id='36'>
+                <date>2019-10-06T00:00:00+02:00</date>
+                <start>00:00</start>
+                <duration>01:00</duration>
+                <room>Proxima b</room>
+                <slug>hackumenta-36-ai-lesung</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/H7DRK9/</url>
+                <recording>
+                    <license></license>
+                    <optout>true</optout>
+                </recording>
+                <title>AI Lesung</title>
+                <subtitle></subtitle>
+                <track>Workshops</track>
+                <type>Diskussion</type>
+                <language>de</language>
+                <abstract></abstract>
+                <description>Spa&#223; mit [talktotransformer.com](https://talktotransformer.com).</description>
+                <logo></logo>
+                <persons>
+                    <person id='28'>AI</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+
+        </room>
+        <room name='Barnard'>
+            <event guid='6436bbe6-0a21-5eef-af2f-c461c0163b04' id='31'>
+                <date>2019-10-05T19:00:00+02:00</date>
+                <start>19:00</start>
+                <duration>01:30</duration>
+                <room>Barnard</room>
+                <slug>hackumenta-31-cover-fr-smartphonekamera-modellieren-und-ausdrucken</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/9Q77DL/</url>
+                <recording>
+                    <license></license>
+                    <optout>true</optout>
+                </recording>
+                <title>Cover f&#252;r Smartphonekamera modellieren und ausdrucken</title>
+                <subtitle></subtitle>
+                <track>Workshops</track>
+                <type>Workshop</type>
+                <language>de</language>
+                <abstract>Erstelle eine Abdeckung f&#252;r deine Smartphonekamera mit FreeCAD und drucke sie anschlie&#223;end vor Ort mit einem 3D Drucker aus.</abstract>
+                <description>Im Workshop zeige ich die Grundlagen zum erstellen eines CAD Modells mit FreeCAD.
+
+Jede*r kann sich ein Cover zum abdecken f&#252;r die Kamera seines eigenen Smartphones erstellen und anschlie&#223;end ausdrucken. CAD-Software ist im Detail oft sehr komplex. Die Grundlagen, um die es in diesem Workshop gehen soll, sind jedoch bei den meisten sehr &#228;nlich, leicht anzuwenden und reichen aus, um eigene Modelle f&#252;r Reperaturen und andere Basteleien zu konstruieren.
+
+Das Cover besteht aus zwei Teilen. Einen Rahmen, der mit doppelseitigem Klebeband auf die Linse geklebt wird und einer kleinen Platte, die in den Rahmen geschoben werden kann. Wenn man ein Foto machen m&#246;chte, kann man das Cover einfach herausziehen.
+
+Bitte bringt nach M&#246;glichkeit euren eigenen Laptop mit. Vor Ort ist nur eine begrenzte Anzahl an PCs verf&#252;gbar.
+Auf dem Laptop sollte bereits FreeCAD (https://www.freecadweb.org/) installiert sein.
+Wer au&#223;erdem einen Messschieber oder ein Stahllineal zu Hause hat, kann das ebenfalls mitbringen (ein normales Lineal tut es auch, mit einem Messschieber geht es aber besser).</description>
+                <logo>/media/hackumenta/images/9Q77DL/Hackumenta_-_Kopie.jpg</logo>
+                <persons>
+                    <person id='23'>jakob</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+
+        </room>
+        <room name='Calvera'>
+            <event guid='f3b8fff0-8011-556f-9bb4-315da5f69782' id='9'>
+                <date>2019-10-05T21:45:00+02:00</date>
+                <start>21:45</start>
+                <duration>01:30</duration>
+                <room>Calvera</room>
+                <slug>hackumenta-9-how-to-dj</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/Z3YBMY/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>How to DJ</title>
+                <subtitle></subtitle>
+                <track>Workshops</track>
+                <type>Workshop</type>
+                <language>de</language>
+                <abstract></abstract>
+                <description>Teilnehmer, die sich selbst am Mischpult ausprobieren wollen, melden sich bitte unter e-mail@jonas-thelemann.de an. Wenn (mind. 20) eigene MP3s mitgebracht werden k&#246;nnen, bitte in der Mail einen Link mitschicken, &#252;ber den der Workshopleiter die MP3s vorher herunterladen und vorbereiten kann. F&#252;r den eigenen Spa&#223; eignen sich am besten Lieder mit &#228;hnlicher BPM (Geschwindigkeit).</description>
+                <logo></logo>
+                <persons>
+                    <person id='8'>dargmuesli</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='d330a01a-3373-5180-96cf-c72ca321d352' id='21'>
+                <date>2019-10-06T00:00:00+02:00</date>
+                <start>00:00</start>
+                <duration>04:00</duration>
+                <room>Calvera</room>
+                <slug>hackumenta-21-dj-set-10-05-</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/7NWRPH/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>DJ-Set (10-05)</title>
+                <subtitle></subtitle>
+                <track>Party</track>
+                <type>Musik</type>
+                <language>de</language>
+                <abstract></abstract>
+                <description>Warm werden mit DROELOE, &#252;ber Deep House zu Techno und vielleicht ein bisschen Drum&apos;n&apos;Bass.</description>
+                <logo></logo>
+                <persons>
+                    <person id='31'>cReal</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+
+        </room>
+        <room name='Pluto'>
+            <event guid='a7fef6a0-93a8-5b62-b4b0-8f2c599ad9fe' id='39'>
+                <date>2019-10-05T12:00:00+02:00</date>
+                <start>12:00</start>
+                <duration>10:00</duration>
+                <room>Pluto</room>
+                <slug>hackumenta-39-self-organized-sessions</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/KLTWU7/</url>
+                <recording>
+                    <license></license>
+                    <optout>true</optout>
+                </recording>
+                <title>Self-organized Sessions</title>
+                <subtitle></subtitle>
+                <track>Workshops</track>
+                <type>Workshop</type>
+                <language>en</language>
+                <abstract></abstract>
+                <description></description>
+                <logo></logo>
+                <persons>
+                    <person id='30'>Du</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+
+        </room>
+
+    </day>
+    <day index='4' date='2019-10-06' start='2019-10-06T04:00:00+02:00' end='2019-10-07T03:59:00+02:00'>
+        <room name='Proxima b'>
+            <event guid='e74c38fe-641f-50d0-983b-8efe9a01d86f' id='24'>
+                <date>2019-10-06T16:00:00+02:00</date>
+                <start>16:00</start>
+                <duration>00:30</duration>
+                <room>Proxima b</room>
+                <slug>hackumenta-24-closing</slug>
+                <url>http://fahrplan.2019.hackumenta.de/hackumenta/talk/CGLQJN/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Closing</title>
+                <subtitle></subtitle>
+                <track>Talks</track>
+                <type>Talk</type>
+                <language>de</language>
+                <abstract></abstract>
+                <description></description>
+                <logo></logo>
+                <persons>
+                    <person id='29'>nxb</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+
+        </room>
+
+    </day>
+
+</schedule>
