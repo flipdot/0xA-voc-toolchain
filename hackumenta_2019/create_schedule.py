@@ -29,6 +29,7 @@ def main():
         tree = ET.parse(schedule)
     root = tree.getroot()
     for room in root.iter('room'):
+        not_recorded_events = []
         for event in room.iter('event'):
             guid = event.attrib['guid']
             if guid in TALK_MAPPING:
@@ -36,6 +37,11 @@ def main():
                 video_download_url = ET.Element('video_download_url')
                 video_download_url.text = url
                 event.append(video_download_url)
+            else:
+                not_recorded_events.append(event)
+        for event in not_recorded_events:
+            room.remove(event)
+
     tree.write(OUTPUT_SCHEDULE_PATH)
 
 
