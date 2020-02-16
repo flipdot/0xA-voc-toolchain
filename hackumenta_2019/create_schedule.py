@@ -20,7 +20,7 @@ TALK_MAPPING = {
     'e2daa1e6-0cca-58dc-a177-7988d4cf25ec': '10_Esperanto_Wie_funktioniert_eine_Plansprache',
     # 11: Not approved
     # 12: TODO: Waiting for approval
-    # 13: TODO: Waiting for approval
+    'e74c38fe-641f-50d0-983b-8efe9a01d86f': '13_Closing',
 }
 
 
