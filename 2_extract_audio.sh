@@ -24,8 +24,8 @@ do
         -vn \
         "${video_dir}cam.wav"
 
-    # Normalize the audio for better comparison in audacity, and to
+    # Compress the audio for better comparison in audacity, and to
     # improve overall soundquality
-    sox --norm "${video_dir}screen.wav" "${video_dir}screen_normalized.wav"
-    sox --norm "${video_dir}cam.wav" "${video_dir}cam_normalized.wav"
+    sox "${video_dir}cam.wav" "${video_dir}cam_normalized.wav" compand 0.3,1 6:-70,-60,-20 -8 -90 0.2
+    sox "${video_dir}screen.wav" "${video_dir}screen_normalized.wav" compand 0.3,1 6:-70,-60,-20 -8 -90 0.2
 done
