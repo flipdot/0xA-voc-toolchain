@@ -60,7 +60,7 @@ do
         [bg_with_cam];
         [bg_with_cam][slides]
             overlay=
-               shortest=1
+               eof_action=pass
         [talk]
         " \
         -map "[talk]" \
@@ -68,6 +68,5 @@ do
         -qp:v $QUALITY \
         -c:a aac \
         -b:a 128k \
-        -shortest \
         ${video_dir}${PREFIX}combined.mp4
 done
