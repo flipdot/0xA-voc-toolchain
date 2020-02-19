@@ -34,6 +34,8 @@ def main():
             guid = event.attrib['guid']
             if guid in TALK_MAPPING:
                 url = '/'.join([BASE_URL, TALK_MAPPING[guid], 'output.mp4'])
+                # only slides
+                # slides_url = '/'.join([BASE_URL, TALK_MAPPING[guid], 'only_screen_output.mp4'])
                 video_download_url = ET.Element('video_download_url')
                 video_download_url.text = url
                 event.append(video_download_url)
