@@ -33,7 +33,7 @@ def main():
         for event in room.iter('event'):
             guid = event.attrib['guid']
             if guid in TALK_MAPPING:
-                url = '/'.join([BASE_URL, TALK_MAPPING[guid], 'output.mp4'])
+                url = '/'.join([BASE_URL, TALK_MAPPING[guid], 'all_streams.mp4'])
                 # only slides
                 # slides_url = '/'.join([BASE_URL, TALK_MAPPING[guid], 'only_screen_output.mp4'])
                 video_download_url = ET.Element('video_download_url')

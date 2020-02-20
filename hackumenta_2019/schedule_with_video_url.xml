@@ -39,7 +39,7 @@ The project is the brainchild of Andreas Krawitz and his team from the "Hackumen
                 </persons>
                 <links />
                 <attachments />
-            <video_download_url>http://tmp.soerface.de/4YTRGDg3MfeaWERDhVxU/01_Opening/output.mp4</video_download_url></event>
+            <video_download_url>http://tmp.soerface.de/4YTRGDg3MfeaWERDhVxU/01_Opening/all_streams.mp4</video_download_url></event>
             <event guid="b006d1fb-0e63-5841-ba5c-462fee19f1c9" id="8">
                 <date>2019-10-03T19:00:00+02:00</date>
                 <start>19:00</start>
@@ -67,7 +67,7 @@ Dieser Talk beleuchtet anhand von NVIDIAs CUDA die genannten Fragestellungen, we
                 </persons>
                 <links />
                 <attachments />
-            <video_download_url>http://tmp.soerface.de/4YTRGDg3MfeaWERDhVxU/02_CUDA_Basics/output.mp4</video_download_url></event>
+            <video_download_url>http://tmp.soerface.de/4YTRGDg3MfeaWERDhVxU/02_CUDA_Basics/all_streams.mp4</video_download_url></event>
             <event guid="008f924e-42ea-5079-ac92-c4804d81c70d" id="2">
                 <date>2019-10-03T20:00:00+02:00</date>
                 <start>20:00</start>
@@ -92,7 +92,7 @@ Dieser Talk beleuchtet anhand von NVIDIAs CUDA die genannten Fragestellungen, we
                 </persons>
                 <links />
                 <attachments />
-            <video_download_url>http://tmp.soerface.de/4YTRGDg3MfeaWERDhVxU/03_Die_dreckige_Empirie/output.mp4</video_download_url></event>
+            <video_download_url>http://tmp.soerface.de/4YTRGDg3MfeaWERDhVxU/03_Die_dreckige_Empirie/all_streams.mp4</video_download_url></event>
             </room>
         <room name="Barnard">
             </room>
@@ -130,7 +130,7 @@ Wer nicht zum Talk nicht kommen kann, findet die Maschine (und mich) in Barnard,
                 </persons>
                 <links />
                 <attachments />
-            <video_download_url>http://tmp.soerface.de/4YTRGDg3MfeaWERDhVxU/04_Mechanische_Zeichenmaschine/output.mp4</video_download_url></event>
+            <video_download_url>http://tmp.soerface.de/4YTRGDg3MfeaWERDhVxU/04_Mechanische_Zeichenmaschine/all_streams.mp4</video_download_url></event>
             <event guid="b750a551-5c2e-59a8-b538-cce6eca1c18e" id="10">
                 <date>2019-10-04T20:00:00+02:00</date>
                 <start>20:00</start>
@@ -155,7 +155,7 @@ Wer nicht zum Talk nicht kommen kann, findet die Maschine (und mich) in Barnard,
                 </persons>
                 <links />
                 <attachments />
-            <video_download_url>http://tmp.soerface.de/4YTRGDg3MfeaWERDhVxU/06_Chemie_und_Physik_beim_Kochen_und_Brot_backen/output.mp4</video_download_url></event>
+            <video_download_url>http://tmp.soerface.de/4YTRGDg3MfeaWERDhVxU/06_Chemie_und_Physik_beim_Kochen_und_Brot_backen/all_streams.mp4</video_download_url></event>
             <event guid="19078c75-46cf-59e5-ab40-07d44cdceccc" id="30">
                 <date>2019-10-04T21:45:00+02:00</date>
                 <start>21:45</start>
@@ -180,7 +180,7 @@ Wer nicht zum Talk nicht kommen kann, findet die Maschine (und mich) in Barnard,
                 </persons>
                 <links />
                 <attachments />
-            <video_download_url>http://tmp.soerface.de/4YTRGDg3MfeaWERDhVxU/07_Biometrische_Ueberwachung_in_Deutschland/output.mp4</video_download_url></event>
+            <video_download_url>http://tmp.soerface.de/4YTRGDg3MfeaWERDhVxU/07_Biometrische_Ueberwachung_in_Deutschland/all_streams.mp4</video_download_url></event>
             </room>
         <room name="Barnard">
             </room>
@@ -218,7 +218,7 @@ Nachdem kurz die grundlegende Idee hinter Microservices wiederholt und damit das
                 </persons>
                 <links />
                 <attachments />
-            <video_download_url>http://tmp.soerface.de/4YTRGDg3MfeaWERDhVxU/08_DargStack_Ein_Strauss_Microservices/output.mp4</video_download_url></event>
+            <video_download_url>http://tmp.soerface.de/4YTRGDg3MfeaWERDhVxU/08_DargStack_Ein_Strauss_Microservices/all_streams.mp4</video_download_url></event>
             <event guid="372d7e19-0f8f-56a9-92b7-27a5efb97f74" id="34">
                 <date>2019-10-05T16:00:00+02:00</date>
                 <start>16:00</start>
@@ -243,7 +243,7 @@ Nachdem kurz die grundlegende Idee hinter Microservices wiederholt und damit das
                 </persons>
                 <links />
                 <attachments />
-            <video_download_url>http://tmp.soerface.de/4YTRGDg3MfeaWERDhVxU/09_Blast_Procedure_Wie_man_Party_und_Videogames_vereinen_kann/output.mp4</video_download_url></event>
+            <video_download_url>http://tmp.soerface.de/4YTRGDg3MfeaWERDhVxU/09_Blast_Procedure_Wie_man_Party_und_Videogames_vereinen_kann/all_streams.mp4</video_download_url></event>
             <event guid="e2daa1e6-0cca-58dc-a177-7988d4cf25ec" id="12">
                 <date>2019-10-05T17:30:00+02:00</date>
                 <start>17:30</start>
@@ -272,7 +272,7 @@ Und weil die Sprache so einfach ist, wird in diesem Talk gleich ein Mini-Sprachk
                 </persons>
                 <links />
                 <attachments />
-            <video_download_url>http://tmp.soerface.de/4YTRGDg3MfeaWERDhVxU/10_Esperanto_Wie_funktioniert_eine_Plansprache/output.mp4</video_download_url></event>
+            <video_download_url>http://tmp.soerface.de/4YTRGDg3MfeaWERDhVxU/10_Esperanto_Wie_funktioniert_eine_Plansprache/all_streams.mp4</video_download_url></event>
             <event guid="a10e2317-83f8-5f49-a153-c73cddcb6708" id="16">
                 <date>2019-10-05T21:15:00+02:00</date>
                 <start>21:15</start>
@@ -297,7 +297,7 @@ Und weil die Sprache so einfach ist, wird in diesem Talk gleich ein Mini-Sprachk
                 </persons>
                 <links />
                 <attachments />
-            <video_download_url>http://tmp.soerface.de/4YTRGDg3MfeaWERDhVxU/12_flipdot_Badge_design/output.mp4</video_download_url></event>
+            <video_download_url>http://tmp.soerface.de/4YTRGDg3MfeaWERDhVxU/12_flipdot_Badge_design/all_streams.mp4</video_download_url></event>
             </room>
         <room name="Barnard">
             </room>
@@ -333,7 +333,7 @@ Und weil die Sprache so einfach ist, wird in diesem Talk gleich ein Mini-Sprachk
                 </persons>
                 <links />
                 <attachments />
-            <video_download_url>http://tmp.soerface.de/4YTRGDg3MfeaWERDhVxU/13_Closing/output.mp4</video_download_url></event>
+            <video_download_url>http://tmp.soerface.de/4YTRGDg3MfeaWERDhVxU/13_Closing/all_streams.mp4</video_download_url></event>
 
         </room>
 
