@@ -10,7 +10,7 @@ black = "*"
 ffmpeg-python = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.12"
 
 [pipenv]
 allow_prereleases = true
